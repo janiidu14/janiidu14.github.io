@@ -12,7 +12,7 @@ import Projects from "@components/Projects";
 
 import developer from "../public/developer.png";
 import portrait from "../public/self-portrait.png";
-import styles from "@/globals.css";
+// import "@/globals.css";
 
 export default function Home() {
   

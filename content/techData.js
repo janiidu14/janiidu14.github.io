@@ -58,7 +58,7 @@ const tech = {
         Icon: DiJava,
       },
       {
-        id: 7;
+        id: 7,
         name: "MySQL",
         Icon: DiMysql,
       },
