@@ -12,6 +12,7 @@ import Projects from "@components/Projects";
 
 import developer from "../public/developer.png";
 import portrait from "../public/self-portrait.png";
+import styles from "@/globals.css";
 
 export default function Home() {
   
@@ -19,11 +20,10 @@ export default function Home() {
     <div>
       <Head>
         <title>janiidu</title>
-        <meta name="description" content="Hey, I'm Janidu Rathnayaka. A Web Developer who loves to design and code. I use React.js or Next.js to build the web application interfaces and their functionalities." />
+        <meta name="description" content="Hey, I&apos;m Janidu Rathnayaka. A Web Developer who loves to design and code. I use React.js or Next.js to build the web application interfaces and their functionalities." />
         <meta name="keywords" content="Janidu Rathnayaka, Developer Portofolio, Web Developer"/>
         <meta property="og:title" content="Janidu Rathanayaka - Web Developer"/>
         <link rel="icon" href={portrait} />
-        <link rel="stylesheet" href="@/globals.css" />
       </Head>
 
       <main className=" bg-[#201A26] px-10 md:px-20 lg:px-30 xl:px-60">
@@ -34,7 +34,7 @@ export default function Home() {
                 Hello World!
               </p>
               <h2 className="text-3xl md:text-4xl py-2 font-bold  text-slate-100">
-                I'm Janidu Rathnayaka
+                I&apos;m Janidu Rathnayaka
               </h2>
               <p className="text-xl md:text-xl py-5 font-bold text-gray-400 ">
                 Software Enginering Undergraduate

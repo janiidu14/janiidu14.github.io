@@ -28,7 +28,7 @@ function TechSection({ technology }) {
           return (
             <div className="rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 p-0.5 my-auto">
 
-              <div className="tile rounded-lg shadow bg-gray-900 relative flex flex-col gap-3 items-center justify-center p-10 ">
+              <div key={item.id} className="tile rounded-lg shadow bg-gray-900 relative flex flex-col gap-3 items-center justify-center p-10 ">
                 <item.Icon className="utilities-svg fill-white text-xl sm:text-2xl md:text-4xl mb-2" />
                 <p className="text-center text-white select-none text-xs font-bold">
                   {item.name}

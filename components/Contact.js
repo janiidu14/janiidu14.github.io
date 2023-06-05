@@ -3,6 +3,7 @@
 import { React, useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { send } from "/api/send.js";
 
 export default function Contact() {
   const [fullname, setFullname] = useState("");
@@ -55,7 +56,8 @@ export default function Contact() {
 
     if (isValidForm) {
       setButtonText("Sending");
-      const res = await fetch("/api/send", {
+      // const res = await fetch("/api/send", {
+      const res = await fetch(send, {
         body: JSON.stringify({
           email: email,
           fullname: fullname,
