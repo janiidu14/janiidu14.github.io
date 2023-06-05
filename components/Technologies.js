@@ -26,9 +26,9 @@ function TechSection({ technology }) {
       <div className="container pt-5 grid gap-8 grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-7 mt-5">
         {technology.data.map((item) => {
           return (
-            <div className="rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 p-0.5 my-auto">
+            <div key={item.id} className="rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 p-0.5 my-auto">
 
-              <div key={item.id} className="tile rounded-lg shadow bg-gray-900 relative flex flex-col gap-3 items-center justify-center p-10 ">
+              <div  className="tile rounded-lg shadow bg-gray-900 relative flex flex-col gap-3 items-center justify-center p-10 ">
                 <item.Icon className="utilities-svg fill-white text-xl sm:text-2xl md:text-4xl mb-2" />
                 <p className="text-center text-white select-none text-xs font-bold">
                   {item.name}
