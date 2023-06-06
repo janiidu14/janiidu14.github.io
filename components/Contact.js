@@ -56,7 +56,7 @@ export default function Contact() {
 
     if (isValidForm) {
       setButtonText("Sending");
-      const res = await fetch("/api/send", {
+      const res = await fetch("https://janiidu.me/api/send", {
         body: JSON.stringify({
           email: email,
           fullname: fullname,
