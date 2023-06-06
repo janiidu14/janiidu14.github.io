@@ -48,7 +48,7 @@ export default function Home() {
                 <a href="https://github.com/janiidu14" target="_blank">< AiFillGithub  className="hover:scale-110 active:scale-90 transition-all"/></a>
               </div>
             </div>
-            <Image src="https://janiidu.me/developer.png" alt="Developer Image" width={300} className="mx-auto my-auto hidden md:block" />
+            <Image src={developer} alt="Developer Image" width={300} className="mx-auto my-auto hidden md:block" />
           </div>
         </section>
 
