@@ -58,9 +58,9 @@ export default function Home() {
               </h3>
               <p className="py-5 leading-8 dark:text-gray-200 max-w-xl mx-auto md:text-l text-center">
               An enthusiastic beginner in the world of technology and software development. 
-              With a deep passion for coding and a curiosity for emerging trends, I'm constantly seeking opportunities to learn and grow. 
+              With a deep passion for coding and a curiosity for emerging trends, I&apos;m constantly seeking opportunities to learn and grow. 
               I believe in the power of teamwork and strive to create innovative solutions that make a difference. 
-              Let's connect and embark on this exciting journey together!
+              Let&apos;s connect and embark on this exciting journey together!
               </p>
               <a href="https://drive.google.com/file/d/12cuVSn0ZEWebhMd96-BJV3JVb97A_Eg7/view?usp=sharing" target="_blank">
                 <div className="my-5 flex justify-center">
