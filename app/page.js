@@ -10,8 +10,8 @@ import Technologies from "@components/Technologies";
 import Contact from "@components/Contact";
 import Projects from "@components/Projects";
 
-import developer from "../public/developer.png";
-import portrait from "../public/self-portrait.png";
+import developer from "@public/developer.png";
+import portrait from "@public/self-portrait.png";
 // import "@/globals.css";
 
 export default function Home() {
