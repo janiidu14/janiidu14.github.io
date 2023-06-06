@@ -114,7 +114,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="container mb-10 p-8 grid lg:grid-cols-2">
+    <div className="container mb-10 lg:p-8 lg:grid lg:grid-cols-2">
       <div className="my-auto">
         <h2 className="text-xl m-8 font-bold text-slate-100 dark:text-teal-400 md:text-4xl">
           Lets Talk. <br /> Tell Me More About Your Project

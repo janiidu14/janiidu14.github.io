@@ -11,7 +11,7 @@ import { MdOutlineLink } from "react-icons/md";
 export default function Projects() {
     return (
         <section>
-            <div className="container mb-10 p-8 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className="container mb-10 p-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
                 {projectsData &&
                     projectsData.map((project, index) => {
                         if (project.name === "" && project.githubURL === "")
@@ -36,15 +36,15 @@ export function Project({ project }) {
 
                 <div className="p-5">
                     <a href="#">
-                        <h5 className="my-5 text-2xl font-bold tracking-tight text-white"> {project.name} </h5>
+                        <h5 className="my-5 lg:text-xl font-bold tracking-tight text-white"> {project.name} </h5>
                     </a>
-                    <p id="description" className=" mb-5 font-normal text-gray-400"> {project.description} </p>
+                    <p id="description" className=" mb-5 font-normal text-sm lg:text-md text-gray-400"> {project.description} </p>
                     <div className="mb-5 flex items-center gap-1 flex-wrap">
                         {project.tools.map((tool, index) => {
                             return (
                                 <span
                                     key={`${tool}-${index}`}
-                                    className="bg-gray-100 dark:bg-darkPrimary text-gray-500 rounded px-2 py-1 text-xs"
+                                    className="bg-gray-100 text-gray-500 rounded px-2 py-1 text-xxs sm:text-xs"
                                 >
                                     {tool}
                                 </span>
