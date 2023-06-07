@@ -53,10 +53,10 @@ export default function Home() {
               <Image src={portrait} alt="Portrait Image" width={200} className="border-teal-600 rounded-full mx-auto" />
             </div>
             <div className="mx-auto">
-              <h3 className="py-10 font-bold dark:text-white text-2xl md:text-3xl text-center">
+              <h3 className="py-10 font-bold  text-2xl md:text-3xl text-center text-white">
                 About Me
               </h3>
-              <p className="py-5 leading-8 dark:text-gray-200 max-w-xl mx-auto md:text-l text-center">
+              <p className="py-5 leading-8 max-w-xl mx-auto md:text-l text-center text-white">
               An enthusiastic beginner in the world of technology and software development. 
               With a deep passion for coding and a curiosity for emerging trends, I&apos;m constantly seeking opportunities to learn and grow. 
               I believe in the power of teamwork and strive to create innovative solutions that make a difference. 
@@ -65,7 +65,7 @@ export default function Home() {
               <a href="https://drive.google.com/file/d/12cuVSn0ZEWebhMd96-BJV3JVb97A_Eg7/view?usp=sharing" target="_blank">
                 <div className="my-5 flex justify-center">
                   <button className=" p-0.5 mb-2 overflow-hidden text-sm font-medium  rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white">
-                    <span className="relative font-bold px-5 py-2.5 inline-flex items-center transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                    <span className="relative font-bold px-5 py-2.5 inline-flex items-center transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0 text-white">
                       Resume
                     </span>
                   </button>
@@ -77,20 +77,20 @@ export default function Home() {
       
         <section id="technologies" className="pb-20">
           <div>
-            <h3 className="text-2xl md:text-3xl py-10 text-center font-bold ">Technologies</h3>
+            <h3 className="text-2xl md:text-3xl py-10 text-center font-bold text-white">Technologies</h3>
             <Technologies />
           </div>
         </section>
 
         <section id="projects"  className="pb-10">
-          <h3 className="text-2xl md:text-3xl py-10 text-center font-bold">Projects</h3>
+          <h3 className="text-2xl md:text-3xl py-10 text-center font-bold text-white">Projects</h3>
           <Projects />
           
           <Contact />
           
           <div className="mt-10 border-b border-2 border-gray-200"></div>
           <div className="py-6 flex justify-between">
-            <p>&copy; 2023 | All Rights Reserved By <a href="https://janiidu.me" target="_blank" className="text-purple-300 ">Janidu Rathnayaka</a> </p>
+            <p className=" text-white">&copy; 2023 | All Rights Reserved By <a href="https://janiidu.me" target="_blank" className="text-purple-300 ">Janidu Rathnayaka</a> </p>
             <div>
             </div>
           </div>

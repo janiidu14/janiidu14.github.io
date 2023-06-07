@@ -19,7 +19,7 @@ export default function Technologies() {
 function TechSection({ technology }) {
   return (
     <div>
-      <h2 className="font-bold text-xl sm:text-2xl py-4">
+      <h2 className="font-bold text-xl sm:text-2xl py-4 text-white">
         {technology.title}
       </h2>
 

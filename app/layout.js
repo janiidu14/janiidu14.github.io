@@ -20,12 +20,12 @@ export const metadata = {
     siteName: 'janiidu.me',
     images: [
       {
-        href: {portrait},
+        href: '@public/self-portrait.png',
         width: 800,
         height: 600,
       },
       {
-        href: {portrait},
+        href: '@public/self-portrait.png',
         width: 1800,
         height: 1600,
         alt: 'Portrait',
